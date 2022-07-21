@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Skunkworks Blog`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Nick Larew`,
+      summary: `who definitely blogs regularly about insightful topics.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `An example static site to showcase Atlas Static Site Search.`,
+    siteUrl: `https://skunkblog.nlarew.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `nlarew`,
     },
   },
   plugins: [
@@ -125,6 +125,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sitemap`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
