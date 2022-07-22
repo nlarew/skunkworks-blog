@@ -26,7 +26,7 @@ const Layout = ({ location, title, children }) => {
     <div className="global-wrapper" data-is-root-path={isRootPath}>
       <header className="global-header">
         {header}
-        {/* <Search id="docs-search-wpvpm" /> */}
+        <Search id="docs-search-wpvpm" />
       </header>
       <main>{children}</main>
       <footer>
